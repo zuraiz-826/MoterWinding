@@ -1,0 +1,61 @@
+.countSection {
+  padding: 5rem 0;
+  text-align: center;
+  background: #262f53;
+  position: relative;
+  overflow: hidden;
+}
+
+.countSection .countNumberContent {
+  padding: 0.5rem;
+  text-align: center;
+}
+.countSection .countNumberContent .mdHeading {
+  color: #fff;
+  margin: 0;
+  font-weight: 900;
+  font-size: 4.5rem;
+  margin-bottom: 0.6rem;
+}
+.countSection .countNumberContent .mainText {
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #fff;
+  line-height: 1;
+}
+.countElementorImg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+  width: 600px;
+  height: auto;
+  animation: rotationCount 34s linear infinite;
+  z-index: 1;
+}
+.countSection .container{ 
+  position: relative;
+  z-index: 4;
+}
+@keyframes rotationCount {
+  0% {
+    transform: translate(50%, 50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(50%, 50%) rotate(360deg);
+  }
+}
+@media (max-width: 992px) {
+  .countSection .countNumberContent .mdHeading {
+    font-size: 3rem;
+  }
+  .countSection .countNumberContent .mainText {
+    font-size: 1rem;
+  }
+  .countSection .countNumberContent {
+    padding: 1rem 0.5rem;
+  } 
+  .countElementorImg {
+    width: 400px;
+  }
+}

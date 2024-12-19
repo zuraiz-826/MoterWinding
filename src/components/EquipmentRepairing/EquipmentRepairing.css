@@ -1,0 +1,70 @@
+.EquipmentRepairing {
+    padding: 4rem 0;
+    padding-bottom: 2rem;
+    background-image: url("../../assets/section-bg-img.jpg");
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}  
+.EquipmentRepairing .mdHeading {
+    color: #fff;
+    margin-bottom: 2.3rem;
+    font-weight: 900;
+    font-size: 2rem;
+
+} 
+.EquipmentRepairing .mdHeading span {
+    color: #fff;
+    display: block;
+    font-weight: 300;
+    font-size: 2rem; 
+} 
+.EquipmentRepairing .mainText {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 300; 
+}  
+.founterText {
+    margin: 2rem 0;
+    margin-top: 3rem;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1rem; 
+} 
+.EquipmentRepairing .heroBtn {
+    margin-top: 1rem;
+    justify-content: center;
+}
+.EquipmentRepairing .heroBtn .mainBtn{
+    background-color: #fff;
+    color: #0072bc;
+    border-color: #fff;
+}
+.EquipmentRepairing .heroBtn .mainBtn:hover{
+    background: #0072bc;
+    color: #fff;
+    border-color: #0072bc;
+}
+
+@media (max-width: 992px) {
+    .EquipmentRepairing {
+        padding: 5rem 0;
+    } 
+    .EquipmentRepairing .mdHeading {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    } 
+    .EquipmentRepairing .mainText {
+        font-size: 1rem;
+    } 
+    .founterText {
+        font-size: 0.9rem;
+    }
+    
+    .EquipmentRepairing .heroBtn {
+        margin-top: 0.5rem;
+    }
+    .EquipmentRepairing .mdHeading span { 
+        font-size: 1.2rem;
+    } 
+}

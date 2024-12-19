@@ -1,0 +1,18 @@
+.aboutus {
+  padding: 4em 0;
+  text-align: center; 
+}
+.aboutus .mainText {
+  font-size: 1rem;
+  color: #808285;
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  .aboutus .mainText {
+    font-size: 0.9rem;
+  }
+  .aboutus {
+    padding: 3rem 0;  
+  } 
+}

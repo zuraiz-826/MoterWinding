@@ -1,0 +1,55 @@
+.ChooseUsSection{
+  background: #2B8AC7;
+  position: relative;
+  overflow: hidden;
+  padding-top: 13rem;
+} 
+.ChooseUsSection .mainText {
+  text-align: left;
+  color: #fff;
+}
+.ChooseUsSection .mdHeading {
+  text-align: left;
+  font-weight: 500;
+  color: #fff;
+}
+.orderList {
+  padding-left: 1rem;
+} 
+.elementorImg{ 
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%) ;
+  width: 500px;
+  height: auto;
+  animation: rotation 20s  linear infinite ;
+} 
+.chooseUsContent{
+  position: relative;
+  z-index: 3;
+}
+
+@keyframes rotation {
+  0% {
+    transform:  translate(-50%, -50%) rotate(0deg);
+  }
+  100%{
+    transform:  translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .elementorImg{  
+    top: 0%;
+    transform: translate(-50%, -50%);
+    width: 350px; 
+  }
+
+  .ChooseUsSection{
+    padding: 4rem 1rem;
+    padding-top: 13rem;
+  } 
+  
+}

@@ -1,0 +1,65 @@
+.topBarContainer {
+  padding: 0.7rem 0;
+  border-bottom: 0.2px solid #0072bc;
+}
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.locationText {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #0072bc;
+  transition: all 0.2s ease-in-out;
+}
+.locationText:hover {
+  color: var(--custom-yellow-color);
+  text-decoration: underline;
+}
+.socialLink {
+  text-decoration: none;
+  cursor: pointer;
+  color: #0072bc;
+  font-size: 1.4rem;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+.socialLink:hover {
+  color: var(--custom-yellow-color);
+  transform: translateY(-3px);
+}
+.topBarLeft {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .topBarLeft {
+    gap: 0.5rem;
+  }
+  .topBar {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .socialLink {
+    font-size: 1rem;
+  }
+  .topBarContainer {
+    padding: 0.7rem 0.7rem;
+  }
+  .locationText {
+    display: none;
+  }
+  .phoneNumberText{
+    display: block;
+    font-size: 0.7rem;
+  }
+}

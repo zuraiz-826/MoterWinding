@@ -1,0 +1,98 @@
+.customNavbar {
+  padding: 2rem 1rem;
+  background: #ffffff;
+  position: sticky;
+  z-index: 999999999;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  box-shadow: 0 0px 5px hsla(204, 100%, 37%, 0.37);
+}
+.customNavbar .nav-link {
+  padding: 0rem 1rem !important;
+  margin: 0 0.3rem;
+  color: #808285;
+  font-weight: 400;
+  font-size: 0.9rem;
+  font-family: "Figtree", sans-serif;
+  position: relative;
+}
+.customNavbar .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: var(--theme-color);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+.customNavbar .nav-link:hover::after {
+  opacity: 1;
+}
+.navbar-brand {
+  line-height: 0.9;
+  font-size: 1.4rem;
+  color: var(--theme-color);
+}
+.brandName {
+  font-weight: 700;
+  color: #808285;
+  font-size: 1.5rem;
+}
+.navbar-brand:hover {
+  color: var(--theme-color);
+}
+.customNavbar .dropdown-menu {
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  top: 120%;
+  padding: 0;
+}
+.customNavbar .dropdown-item {
+  padding: 0.6rem 1rem;
+  color: #262f53;
+  font-weight: 500;
+  font-size: 0.87rem;
+  transition: all 0.2s ease-in;
+}
+.customNavbar .dropdown-item:hover {
+  background: #262f53;
+  color: #fff;
+}
+.customNavbar .dropdown-item.active {
+  background: #262f53;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .customNavbar .nav-link {
+    width: 100%;
+    padding-top: 1rem !important;
+  }
+  .customNavbar .mainBtn {
+    margin-top: 1rem;
+  }
+  .customNavbar {
+    padding: 1rem 0rem;
+  }
+  .brandName {
+    display: block;
+    font-size: 1.3rem;
+  }
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  .customNavbar .navbar-toggler {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  .customNavbar .navbar-toggler:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}

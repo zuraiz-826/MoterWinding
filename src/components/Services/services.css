@@ -1,0 +1,82 @@
+.servicesSection {
+  padding: 4rem 0;
+  padding-bottom: 2rem;
+}
+.servicesSection .row {
+  margin-top: 2.4rem;
+  row-gap: 1.4rem;
+}
+.servicesSection .card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  border: none;
+  box-shadow: 0 10px 20px #00000010;
+}  
+.servicesSection .card:hover {
+  transform: translateY(-3px);
+}
+.servicesSection .card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  position: relative;
+}
+.servicesSection .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  background: #fff;
+  position: relative;
+  z-index: 9;
+}
+.servicesSection .smHeading {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-left: 1rem;
+  color: #262f53;
+  transition: all 0.2s ease-out;
+}
+.servicesSection .smHeading:hover {
+  color: #0071bcd7;
+}
+.arrowIconContainer {
+  width: 3rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #262f53;
+  cursor: pointer;
+  transition: all 0.12s ease-in;
+}
+.arrowIconContainer:hover {
+  background: #0071bcd7;
+}
+.arrowIcon {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 992px) {
+  .servicesSection .row {
+    margin-top: 3rem;
+  }
+  .servicesSection .card-img-top {
+    height: 200px;
+  }
+  .servicesSection .smHeading {
+    font-size: 1.1rem;
+  }
+  .arrowIconContainer {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+  }
+  .arrowIcon {
+    font-size: 1.2rem;
+  }
+}
