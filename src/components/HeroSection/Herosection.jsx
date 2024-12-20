@@ -60,7 +60,7 @@ const Herosection = () => {
             <a href="#" className="mainBtn strokeBtn">
               See how
             </a>
-            <a href="#" className="mainBtn whatsappBtn">
+            <a href="https://wa.me/+971505181836" target="_blank" className="mainBtn whatsappBtn">
             <FaWhatsapp className="whatsappIcon"/>
              WhatsApp Us
             </a>
