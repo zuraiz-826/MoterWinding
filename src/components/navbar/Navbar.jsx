@@ -116,7 +116,7 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <a className="mainBtn ms-1" href="tel::+971505181836">
+          <a href="https://wa.me/+971505181836" target="_blank" className="mainBtn ms-1" >
             <FaWhatsapp className="whatsappIcon" />
             WhatsApp Us
           </a>
