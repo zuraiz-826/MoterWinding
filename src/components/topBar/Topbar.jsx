@@ -33,7 +33,7 @@ const Topbar = () => {
           <div className="topBarRight">
             <div className="social">
               <a
-                href="https://sa.linkedin.com/company/etqan-taiba-company?trk=public_post-text"
+                href="https://sa.linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="socialLink"
